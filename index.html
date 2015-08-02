@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devices-width, initial-scale=1.0">
+	<title>News JC</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+	
+	<header class="main-header">
+		<h1 class="main-header__title">News JC</h1>
+		<h2 class="main-header__subtitulo">Actualidad Al Instante</h2>
+	</header>
+
+	<form action="" class="search">
+		
+		<input type="text" class="search__text" data-input="searchCity" placeholder="Noticia por ciudad">
+		
+		<input type="submit" class="search__search__btn btn" data-button="buscar" value="Buscar">
+
+	</form>
+
+	<div class="loader" id="buscando" ></div>
+	<div id="name-city" class="showCity"></div>
+
+	<main class="news-group">
+		<template id="templateNews" class="card_news">
+			<div class="news">
+				<header class="news__title" data-title></header>
+				<section class="news__contexto" data-contenido></section>
+			</div>
+		</template>
+	</main>
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+	</script>
+
+	<script src="archivo.js"></script>
+
+</body>
+</html>
