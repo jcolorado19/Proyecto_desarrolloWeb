@@ -120,13 +120,16 @@ input[type="submit"] {
     		font-weight: bold;
     		color: #8CE8C1;
     		
+    		
     	}
     	.news__title a{
     		text-decoration: none;
     		color: #8CE8C1;
+    		font-family: "Courgette";
     	}
     	.news__contexto{
     		text-align: justify;
     		font-size: 1.1rem;
     		color: #102640;
+    		font-family: "Varela";
     	}
